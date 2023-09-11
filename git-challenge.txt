@@ -1,0 +1,28 @@
+Last login: Thu Sep  7 11:12:40 on ttys009
+yokoshimaasuka@yokoshimaasukanoMacBook-Air ~ % mkdir git_challenge
+yokoshimaasuka@yokoshimaasukanoMacBook-Air ~ % cd git_challenge
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/yokoshimaasuka/git_challenge/.git/
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % touch hello_world.txt
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % git add hello_world.txt
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % git commit -m"hello_world.txtを追加"
+[main (root-commit) 641c670] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % git add hello_world.txt
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % git commit -m"日本語 訳を追加"
+[main afe0b3d] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % git log
+commit afe0b3dc34d335504ac6646ec58c5fada5762f1a (HEAD -> main)
+Author: askmoomin <askmoomin.1230@gmail.com>
+Date:   Thu Sep 7 11:23:22 2023 +0900
+
+    日本語訳を追加
+
+commit 641c670791ad2d1df930ff48832c411f86d5a690
+Author: askmoomin <askmoomin.1230@gmail.com>
+Date:   Thu Sep 7 11:21:23 2023 +0900
+
+    hello_world.txtを追加
+yokoshimaasuka@yokoshimaasukanoMacBook-Air git_challenge % 
